@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 30px;
+    border-bottom: 2px solid black;
+    
+}
+
+nav .logo{
+    font-size:x-large;
+    font-weight: 500;
+}
+
+
+
+.nav-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.nav-buttons a{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+
+.home{
+    background-color:rgb(39, 241, 173);
+    display: flex;
+    justify-content: flex-end;
+    height: 90vh;
+    
+}
